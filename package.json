@@ -1,0 +1,28 @@
+{
+  "name": "logentries-poller",
+  "version": "1.0.0",
+  "description": "Poll Latest logs from LogEntries in JSON format",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subinvarghesein/logentries-poller.git"
+  },
+  "keywords": [
+    "logentries",
+    "LE",
+    "poller",
+    "logs"
+  ],
+  "author": "Subin Varghese",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/subinvarghesein/logentries-poller/issues"
+  },
+  "homepage": "https://github.com/subinvarghesein/logentries-poller#readme",
+  "dependencies": {
+    "nconf": "^0.8.4"
+  }
+}
